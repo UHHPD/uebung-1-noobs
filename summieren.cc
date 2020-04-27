@@ -5,6 +5,7 @@ using namespace std;
 int main () {
 
 ifstream fin ("daten.txt");
+ofstream fout ("datensumme.txt");
 
 int nr1;
 int nr2;
@@ -16,8 +17,11 @@ fin >> nr1;
 fin >> nr2;
 sm = nr1 + nr2;
 
-cout << sm << '\n';
+fout << sm << '\n';
 
 }
+
+fin.close();
+fout.close();
 
 } ;
