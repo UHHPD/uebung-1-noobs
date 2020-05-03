@@ -1,4 +1,4 @@
-#include <iostream>
+#include <iostream> \\Ausgabe ins Terminal
 #include <fstream>
 using namespace std;
 
