@@ -6,7 +6,7 @@ using namespace std;
 int main () { //beginne Funktion
 
 
-//Start Aufgabe 1a
+//Start Aufgabe 1a: Mittelwert
 
 ifstream fin ("datensumme.txt"); //aus datensumme.txt einlesen
 
