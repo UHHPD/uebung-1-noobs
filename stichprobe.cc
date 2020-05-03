@@ -16,8 +16,8 @@ double sm=0; //Definieren der Variable sm
 
 for (int i=1;i<=234;i++) { //Schleife zum Füllen der Variable mit Werten aus Zeile 1 bis 234 in ganzen Schritten
 
-fin >> N; //Wert an i'ter Stelle in Variable N schreiben
-sm+=N; //Summe der Einträge in datensumme.txt berechnen
+  fin >> N; //Wert an i'ter Stelle in Variable N schreiben
+  sm+=N; //Summe der Einträge in datensumme.txt berechnen
 
 }; //Schleife beenden
 
@@ -38,8 +38,8 @@ sm=0; //Variable sm zurücksetzen
 
 for (int i=1;i<=234;i++) { //Schleife zum Füllen der Variable mit Werten aus Zeile 1 bis 234 in ganzen Schritten
 
-fin >> N; //Werte an i'ter Stelle in Variable N schreiben
-sm+=pow(N-a, 2); //Summe der Quadrate von N minus dem Mittelwert berechnen
+  fin >> N; //Werte an i'ter Stelle in Variable N schreiben
+  sm+=pow(N-a, 2); //Summe der Quadrate von N minus dem Mittelwert berechnen
 
 
 }; //Schleife beenden
