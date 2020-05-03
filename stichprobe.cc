@@ -51,11 +51,11 @@ cout << V << endl; //Varianz ausgeben
 
 //Start Aufgabe 1c: Standardabweichung
 
-double sigma=0;
+double sigma=0; //Definieren der Variable sigma für die Standardabweichung
 
-sigma = sqrt (V);
+sigma = sqrt (V); //Die Wurzel aus der Varianz ziehen und in sigma schreiben
 
-cout << sigma << endl;
+cout << sigma << endl; //Die Standardabweichung ausgeben
 
 fin.close(); //Eingabedatei schließen
 
