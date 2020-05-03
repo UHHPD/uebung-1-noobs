@@ -48,6 +48,15 @@ V=(sm/234.0); //Summe durch Anzahl der Einträge teilen und in V schreiben
 
 cout << V << endl; //Varianz ausgeben
 
+
+//Start Aufgabe 1c: Standardabweichung
+
+double sigma=0;
+
+sigma = sqrt (V);
+
+cout << sigma << endl;
+
 fin.close(); //Eingabedatei schließen
 
 } ; //beende Funktion
