@@ -111,7 +111,7 @@ sm=0; //Variable sm zurücksetzen
 for (int m=1;m<=26;m++) { //Schleife zum Füllen der Variable mit Werten aus Zeile 1 bis 26 in ganzen Schritten
 
   fin4 >> N; //Werte an m'ter Stelle in Variable N schreiben
-  sm+=pow(N-a, 2); //Summe der Quadrate von N minus dem Mittelwert berechnen
+  sm+=N; //Summe der Quadrate von N minus dem Mittelwert berechnen
 
 }; //Schleife beenden
 
